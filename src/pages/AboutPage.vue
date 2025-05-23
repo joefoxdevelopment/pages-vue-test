@@ -1,9 +1,85 @@
-<script setup></script>
+<script setup>
+import ParallaxImage from '@/components/ParallaxImage.vue';
+
+import WalkPhoto from '@/assets/img/20220927_171306129_iOS.jpg';
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">
-    About Page
-  </h1>
+  <div>
+    <div class="mx-auto container">
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+    </div>
+
+    <ParallaxImage :image="WalkPhoto" />
+
+    <div class="mx-auto container">
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+      <p>Some placeholder text</p>
+    </div>
+  </div>
 </template>
 
 <script></script>
